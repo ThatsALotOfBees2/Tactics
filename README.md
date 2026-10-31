@@ -1,10 +1,13 @@
 # Realblast Siege
 
-> **v0.2.0: the game is now built in Unity, with online multiplayer, for Windows and Linux.** The launcher updates to it by itself. New players: download the zip for your system from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), unpack it and run `RealblastSiege.exe` (Windows) or `RealblastSiege.x86_64` (Linux). Everyone in a game needs the same version.
-
+> **v0.2.1: online game list, no port forwarding.** Host a game and it shows up in everyone's list;
+> friends press JOIN. The launcher updates by itself. New players: download the zip for your system
+> from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), unpack it
+> and run `RealblastSiege.exe` (Windows) or `RealblastSiege.x86_64` (Linux). Everyone in a game needs
+> the same version.
 
 A tactical breach-and-defend shooter where everything breaks: 5v5 against bots or with friends.
-Prototype build for Windows 10/11 and Ubuntu (64-bit).
+Prototype build for Windows 10/11 and Linux (64-bit).
 
 ## Install
 
@@ -13,30 +16,33 @@ the file for your system.
 
 **Windows:** `RealblastSiege-<version>-win64.zip`
 1. Unpack it anywhere (keep the `RealblastSiege` folder together).
-2. Run `RealblastSiege.exe`.
+2. Run `RealblastSiege/RealblastSiege.exe`.
 
-**Ubuntu** (22.04 or newer, also Debian, Mint, Pop!_OS): `realblast-siege_<version>_amd64.deb`
-1. Double-click the file and press **Install**, or in a terminal:
-   `sudo apt install ./realblast-siege_<version>_amd64.deb`
-2. Start **Realblast Siege** from the app menu, or run `realblast-siege`.
+**Linux** (Ubuntu 22.04 or newer, Debian, Mint, Pop!_OS and others): `RealblastSiege-<version>-linux.zip`
+1. Unpack it anywhere (keep the `RealblastSiege` folder together).
+2. Run `RealblastSiege/RealblastSiege.x86_64` (if your file manager unpacked it without the run
+   permission: `chmod +x RealblastSiege.x86_64`).
 
-To remove it: `sudo apt remove realblast-siege`.
-
-The launcher checks for a newer version every time it starts, downloads it when there is one,
-and then starts the game. No reinstalling needed (on Ubuntu the updates go to
-`~/.local/share/realblast-siege`).
+**Have the launcher from an older version** (Windows, or the Ubuntu .deb)? Just open it. It checks
+for a newer version every time it starts, downloads it, and then starts the game.
 
 ## Play together
 
-Main menu → **MULTIPLAYER**: host a game, or join one from the server list (or by the host's
-address). Players pick attackers or defenders in the lobby; bots fill the empty slots.
+Main menu → **MULTIPLAYER**.
 
-Hosting: the game opens UDP port **24565** on your router by itself when the router allows it
-(UPnP). If friends can't join, forward UDP 24565 to your PC. Allow the game through Windows
-Firewall when asked.
+- **Host:** type a game name and press **HOST**. The game shows up in everyone's game list. Allow
+  it through Windows Firewall if it asks.
+- **Join:** pick a game from the list and press **JOIN**. No addresses, no port forwarding, no accounts.
+
+Players pick attackers or defenders in the lobby; bots fill the empty slots.
+
+Players connect straight to each other: the games open a way through both routers by themselves.
+A few connections can't be joined this way (very strict routers, some mobile hotspots and carrier
+networks). If a join fails, let the other player host. Or everyone joins a free virtual LAN
+(Tailscale, ZeroTier) and uses **join by address**.
 
 ## Controls
 
 WASD move, Shift sprint, C crouch, Z prone, Q/E lean, Space vault, Left mouse fire, Right mouse
-aim, R reload, F interact / reinforce / barricade, V melee, 1–2 weapons, 3–4 gadgets,
-G quick gadget, 5 drone / cameras, Tab scores, Esc pause.
+aim, R reload, F interact / reinforce / barricade / pick up, V melee, 1–2 weapons, 3–4 gadgets,
+5 drone / cameras, X scan (hold), Tab scores, Esc menu. Keys can be changed in Settings.
