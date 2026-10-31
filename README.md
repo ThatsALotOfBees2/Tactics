@@ -1,6 +1,6 @@
 # Realblast Siege
 
-> **New: v0.2.0, the Unity version with online multiplayer (test build).** Download `RealblastSiege-v0.2.0-win64.zip` from the [v0.2.0 release](https://github.com/ThatsALotOfBees2/Tactics/releases/tag/v0.2.0) and unpack it; everyone in a game needs the same version. Hosting over the internet: forward port 24565 (TCP and UDP), or join a free virtual LAN (Tailscale, ZeroTier, Radmin VPN). The launcher below still installs the older Godot version.
+> **v0.2.0: the game is now built in Unity, with online multiplayer, for Windows and Linux.** The launcher updates to it by itself. New players: download the zip for your system from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), unpack it and run `RealblastSiege.exe` (Windows) or `RealblastSiege.x86_64` (Linux). Everyone in a game needs the same version.
 
 
 A tactical breach-and-defend shooter where everything breaks: 5v5 against bots or with friends.
