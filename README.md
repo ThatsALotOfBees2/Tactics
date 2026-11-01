@@ -1,7 +1,8 @@
 # Realblast Siege
 
-> **v0.2.1: online game list, no port forwarding.** Host a game and it shows up in everyone's list;
-> friends press JOIN. The launcher updates by itself. New players: download the zip for your system
+> **v0.2.2: drywall that breaks like drywall.** White gypsum edges with depth, paint chips, fine
+> cracks, ragged melee holes and a doorway-sized breach charge. Online play: host a game and it shows
+> up in everyone's list; friends press JOIN. The launcher updates by itself. New players: download the zip for your system
 > from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), unpack it
 > and run `RealblastSiege.exe` (Windows) or `RealblastSiege.x86_64` (Linux). Everyone in a game needs
 > the same version.
