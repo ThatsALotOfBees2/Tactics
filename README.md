@@ -1,7 +1,7 @@
 # Realblast Siege
 
-> **v0.2.3: debris, studs and Hikari's new look.** Drywall breaks into crumbly chunks, studs snap into
-> splintered timber, and Hikari is now rainy near-future Tokyo with street traffic far below. Online
+> **v0.2.4: planting, auto-updates, snappier play.** Hold F in a site to plug in a laptop, sites
+> show through walls, and the game now updates itself (RESTART TO UPDATE on the title screen). Online
 > play: host a game and it shows up in everyone's list; friends press JOIN. The launcher updates by
 > itself. New players: download the zip for your system
 > from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), unpack it
