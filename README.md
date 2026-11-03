@@ -1,11 +1,10 @@
 # Realblast Siege
 
-> **v0.2.4: planting, auto-updates, snappier play.** Hold F in a site to plug in a laptop, sites
-> show through walls, and the game now updates itself (RESTART TO UPDATE on the title screen). Online
-> play: host a game and it shows up in everyone's list; friends press JOIN. The launcher updates by
-> itself. New players: download the zip for your system
-> from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), unpack it
-> and run `RealblastSiege.exe` (Windows) or `RealblastSiege.x86_64` (Linux). Everyone in a game needs
+> **v0.2.5: smoother wall breaking, video settings, new launcher.** Breaking walls costs far less
+> frame time, Settings → VIDEO has presets, shadows, textures and **baked lighting**, and the new
+> shield operator PAVISE joins the attackers. New players on Windows: grab **RealblastLauncher.exe**
+> from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), put it in
+> an empty folder and open it: it installs, updates and starts the game. Everyone in a game needs
 > the same version.
 
 A tactical breach-and-defend shooter where everything breaks: 5v5 against bots or with friends.
@@ -16,7 +15,11 @@ Prototype build for Windows 10/11 and Linux (64-bit).
 Open **[Releases](https://github.com/ThatsALotOfBees2/Tactics/releases/latest)** and download
 the file for your system.
 
-**Windows:** `RealblastSiege-<version>-win64.zip`
+**Windows, easiest:** `RealblastLauncher.exe`
+1. Put it in an empty folder and open it (if Windows warns about an unknown app: **More info → Run anyway**).
+2. Press **INSTALL**, then **PLAY**. Open it again any time: it updates the game first.
+
+**Windows, by hand:** `RealblastSiege-<version>-win64.zip`
 1. Unpack it anywhere (keep the `RealblastSiege` folder together).
 2. Run `RealblastSiege/RealblastSiege.exe`.
 
