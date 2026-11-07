@@ -1,6 +1,6 @@
 # Realblast Siege
 
-> **v0.2.5: smoother wall breaking, video settings, new launcher.** Breaking walls costs far less
+> **v0.2.6: Haneul Tower, map editor, uplink servers.** A new three-floor map, a furniture editor on the title screen, new uplink servers and laptops, new AKM and M590A1, sound that muffles through walls, and a working signal jammer.
 > frame time, Settings → VIDEO has presets, shadows, textures and **baked lighting**, and the new
 > shield operator PAVISE joins the attackers. New players on Windows: grab **RealblastLauncher.exe**
 > from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), put it in
