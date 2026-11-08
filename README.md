@@ -1,6 +1,6 @@
 # Realblast Siege
 
-> **v0.2.6: Haneul Tower, map editor, uplink servers.** A new three-floor map, a furniture editor on the title screen, new uplink servers and laptops, new AKM and M590A1, sound that muffles through walls, and a working signal jammer.
+> **v0.2.7: real sounds, smarter bots, drone boost.** Recorded sounds, bots that learn from their games and no longer get stuck on ladders, a drone boost and higher hop, falling off the map kills, plus Haneul Tower and the map editor from v0.2.6.
 > New players on Windows: grab **RealblastLauncher.exe**
 > from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), put it in
 > an empty folder and open it: it installs, updates and starts the game. Everyone in a game needs
