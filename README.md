@@ -1,6 +1,6 @@
 # Realblast Siege
 
-> **v0.2.7: real sounds, smarter bots, drone boost.** Recorded sounds, bots that learn from their games and no longer get stuck on ladders, a drone boost and higher hop, falling off the map kills, plus Haneul Tower and the map editor from v0.2.6.
+> **v0.2.8: full reinforcements, rotation holes, Haneul cleanup.** Reinforcements cover whole walls floor to ceiling, shotgun defender bots open rotation holes, and Haneul loses its indoor glass, blocked doors and garden clutter.
 > New players on Windows: grab **RealblastLauncher.exe**
 > from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), put it in
 > an empty folder and open it: it installs, updates and starts the game. Everyone in a game needs
