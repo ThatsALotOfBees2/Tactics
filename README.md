@@ -1,6 +1,6 @@
 # Realblast Siege
 
-> **v0.2.8: full reinforcements, rotation holes, Haneul cleanup.** Reinforcements cover whole walls floor to ceiling, shotgun defender bots open rotation holes, and Haneul loses its indoor glass, blocked doors and garden clutter.
+> **v0.2.9: Roblox-style map editor, 57 new furniture pieces.** Move, scale and rotate furniture with Z / X / C handles like Roblox Studio, plus a CEO office, server rooms, an aquarium and a full rooftop set, on top of v0.2.8's full reinforcements and bot rotation holes.
 > New players on Windows: grab **RealblastLauncher.exe**
 > from the [latest release](https://github.com/ThatsALotOfBees2/Tactics/releases/latest), put it in
 > an empty folder and open it: it installs, updates and starts the game. Everyone in a game needs
